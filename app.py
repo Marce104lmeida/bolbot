@@ -11,11 +11,11 @@ driver = webdriver.Chrome('C:\\Users\MARCELO\\anaconda3\\chromedriver.exe')
 driver.get('https://conta.uol.com.br/login?t=bol&env=visitante&dest=https://bmail.uol.com.br/login/check_session')
 driver.maximize_window()
 # email onde esta os email a serem encaminhados!
-EMAIL_ADRESS ='marcelo.almeida1989@bol.com.br'
+EMAIL_ADRESS =''
 #senha do email!
-EMAIL_PASSWORD = '151289a'
+EMAIL_PASSWORD = ''
 # email para onde será encaminhado os emails
-enc_para = '4systemweb@gmail.com'
+enc_para = ''
 
 time.sleep(2)
 user_field = driver.find_element(By.ID, 'user')
