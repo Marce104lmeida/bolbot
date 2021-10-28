@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 # Email: marcelo.almeida1989@bol.com.br
 # este bot funcionou com o email da bol
 # futuramente será adicionado para funcionar com mais provedores
-driver = webdriver.Chrome('C:\\Users\MARCELO\\anaconda3\\chromedriver.exe')
+driver = webdriver.Chrome()
 driver.get('https://conta.uol.com.br/login?t=bol&env=visitante&dest=https://bmail.uol.com.br/login/check_session')
 driver.maximize_window()
 # email onde esta os email a serem encaminhados!
@@ -96,4 +96,5 @@ def lixeira():
 encaminhar()
 time.sleep(1)
 lixeira()
+
 
